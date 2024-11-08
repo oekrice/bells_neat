@@ -13,9 +13,9 @@ import neat
 import numpy as np
 from random import uniform, gauss
 
-runs_per_net = 5
+runs_per_net = 10
 simulation_seconds = 60.0
-ngenerations = 10
+ngenerations = 50
 
 # Use the NN network phenotype and the discrete actuator force function.
 def eval_genome(genome, config):
